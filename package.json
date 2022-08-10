@@ -1,6 +1,6 @@
 {
   "name": "@ztrehagem/vanilla-extract-vite-plugin",
-  "version": "3.3.0",
+  "version": "3.3.0+vite3",
   "description": "Clone of @vanilla-extract/vite-plugin supporting Vite 3",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -21,11 +21,11 @@
   ],
   "license": "MIT",
   "scripts": {
-    "prepack": "npm run clean && npm run build",
+    "prepare": "npm run clean && npm run build",
     "build": "npm run build:cjs && npm run build:esm",
     "build:cjs": "tsc --module CommonJS --outDir dist/cjs --noEmit false",
     "build:esm": "tsc --module ESNext --outDir dist/esm --noEmit false",
-    "clean": "rm -rf dist *.tsbuildinfo"
+    "clean": "rm -rf dist"
   },
   "dependencies": {
     "@vanilla-extract/integration": "^5.0.0",
