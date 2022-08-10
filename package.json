@@ -1,0 +1,35 @@
+{
+  "name": "@ztrehagem/vanilla-extract-vite-plugin",
+  "version": "3.3.0",
+  "description": "Clone of @vanilla-extract/vite-plugin supporting Vite 3",
+  "main": "dist/main.cjs.js",
+  "module": "dist/main.esm.js",
+  "files": [
+    "/dist"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "tag": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ztrehagem/vanilla-extract-vite-plugin.git"
+  },
+  "author": "Shigeki Suwa <shigeki.suwa@ztrehagem.dev>",
+  "contributors": [
+    "SEEK"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@vanilla-extract/integration": "^5.0.0",
+    "outdent": "^0.8.0",
+    "postcss": "^8.3.6",
+    "postcss-load-config": "^3.1.0"
+  },
+  "devDependencies": {
+    "vite": "^2.7.0"
+  },
+  "peerDependencies": {
+    "vite": "^2.2.3"
+  }
+}
