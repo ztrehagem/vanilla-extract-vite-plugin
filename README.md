@@ -1,3 +1,5 @@
+**This repo is going to be outdated. The original package @vanilla-extract/vite-plugin will support Vite 3 in next version.**
+
 # 🧁✌️ @ztrehagem/vanilla-extract-vite-plugin
 
 Clone of [@vanilla-extract/vite-plugin](https://www.npmjs.com/package/@vanilla-extract/vite-plugin) supporting Vite 3
